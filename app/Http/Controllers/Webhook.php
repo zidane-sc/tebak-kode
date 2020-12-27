@@ -3,9 +3,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Gateway\EventLogGatseway;
-use App\Gateway\QuestionGateway;
-use App\Gateway\UserGateway;
+use App\gateway\EventLogGateway;
+use App\gateway\QuestionGateway;
+use App\gateway\UserGateway;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Log\Logger;
