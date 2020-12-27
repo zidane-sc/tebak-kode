@@ -3,7 +3,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Gateway\EventLogGateway;
+use App\Gateway\EventLogGatseway;
 use App\Gateway\QuestionGateway;
 use App\Gateway\UserGateway;
 use Illuminate\Http\Request;
