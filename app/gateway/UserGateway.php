@@ -40,4 +40,22 @@ class UserGateway
                 'display_name' => $displayName
             ]);
     }
+    
+    function setUserProgress(string $userId, int $questionNumber)
+    {
+        $this->db->table('users')
+            ->update([
+                'number' => $questionNumber,
+                'user_id' => $userId
+            ]);
+    }
+    
+    function setScore(string $userId, int $score)
+    {
+        $this->db->table('users')
+            ->update([
+                'score' => $score,
+                'user_id' => $userId
+            ]);
+    }
 }
